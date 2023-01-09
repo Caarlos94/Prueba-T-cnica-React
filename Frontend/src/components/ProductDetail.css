@@ -1,0 +1,53 @@
+.detailContainer {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 525px;
+  height: 600px;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+}
+
+.info {
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.botonDetail {
+  border: 2px solid #0091f1;
+  margin-top: 0.5rem;
+  background-color: transparent;
+}
+
+.botonDetail:hover {
+  background-color: #0091f1;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.botonDetail:hover > a{
+  color: #fff;
+}
+
+.botonDetail a {
+  text-decoration: none;
+}
+
+@media screen and (max-width:450px) {
+  .container {
+    width: 285px;
+  }
+}
